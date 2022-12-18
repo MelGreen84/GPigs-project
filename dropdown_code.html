@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples of Arrays, Loops and IFs</title>
+
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #3e8e41;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .show {
+            display: block;
+        }
+
+        #result {
+            width: 20rem;
+            height: 1rem;
+            margin-top: 2rem;
+            border-width: 3px;
+            border-style: dashed;
+            border-color: #FFAC55;
+            padding: 15px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Select your preference from the options below to see a list of guinea pig breeds you may wish to learn more
+        about.</p>
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Short haired piggies</button>
+        <div id="myDropdown1" class="dropdown-content">
+            <a href="#home">American</a>
+            <a href="#about">Dalmation</a>
+            <a href="#contact">Agouti</a>
+            <a href="#contact">Teddy</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button onclick="myFunction2()" class="dropbtn">Long haired piggies</button>
+        <div id="myDropdown2" class="dropdown-content">
+            <a href="#home">Abyssinian</a>
+            <a href="#about">Peruvian</a>
+            <a href="#contact">Coronet</a>
+            <a href="#contact">Silky</a>
+
+        </div>
+    </div>
+    <script>
+
+        // Get the button, and when the user clicks on it, execute myFunction
+        document.getElementById("btn1").onclick = function () { myFunction() };
+
+        /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown1").classList.toggle("show");
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function myFunction(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        }
+        // Get the button, and when the user clicks on it, execute myFunction
+        document.getElementById("btn2").onclick = function () { myFunction2() };
+
+        /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+        function myFunction2() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function myFunction2(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
