@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fruity for GitHub</title>
+    <style>
+        .divclass {
+            height:600px;
+            width:400px;       
+        }
+    </style>
+</head>
+<body>
+    <div id="fruity" class="divclass">
+        <h1>Select fruit <br /><br /></h1>
+        <button style="background-color:orange" onclick="fruit('orange')">Orange</button>
+        <button style="background-color:green" onclick="fruit('lime')">Lime</button>
+        <button style="background-color:yellow" onclick="fruit('lemon')">Lemon</button>
+        <button style="background-color:red" onclick="fruit('cherry')">Cherry</button>
+    </div>
+
+</body>
+<script>
+    function fruit(fruity) {
+        switch (fruity) {
+            case ("orange"):
+                document.getElementById("fruity").style.backgroundColor = "orange";
+                break;
+            case ("lime"):
+                document.getElementById("fruity").style.backgroundColor = "lime";
+                break;
+            case ("lemon"):
+                document.getElementById("fruity").style.backgroundColor = "yellow";
+                break;
+            case ("cherry"):
+                document.getElementById("fruity").style.backgroundColor = "red";
+                break;
+
+        }
+    }
+</script>
+</html>
