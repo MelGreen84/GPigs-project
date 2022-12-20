@@ -1,9 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 body {
   margin: 0;
   background-image: url("/img/cool-background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  line-height: 1;
+  font-family: Arial, Helvetica;
+}
+
+/* image gallery */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.item {
+  box-shadow: 3px 3px 10px 0 #000000;
 }
 
 /* Header */
@@ -36,7 +66,7 @@ header a:hover {
   display: flex;
   flex-direction: column;
   background-image: url("/img/Samson_George_hero_.png");
-  height: 70vh;
+  height: 80vh;
   align-self: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,14 +90,18 @@ header a:hover {
   margin-bottom: 30px;
 }
 
+.text {
+  font-size: 1.4rem;
+  text-align: center;
+  color: white;
+}
+
 .h1_style {
   color: white;
   padding: 10px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 2rem;
-  text-align: left;
-  font-family: 'Henny Penny';
+  text-align: center;
+  font-family: 'Henny Penny', cursive;
+  font-size: 6vw;
 }
 
 .h2_style {
@@ -76,9 +110,8 @@ header a:hover {
   padding: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-size: 2rem;
-  text-align: center;
-  font-family: 'Henny Penny';
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 table,
@@ -92,6 +125,13 @@ td {
 .img_1 {
   width: 200px;
   height: 300px;
+  padding: 5px 5px 5px 5px
+}
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .div-1 {
@@ -144,23 +184,4 @@ td {
   margin-top: 20px;
   text-align: center;
   text-decoration: wavy;
-}
-
-.wrapper {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-}
-
-.gallery {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.box_img {
-  box-shadow: 10px 5px 5px black;
 }
