@@ -7,54 +7,65 @@
     <meta name="viewport" content="width= device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="/CSS/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Henny+Penny&display=swap" rel="stylesheet">
-    <!-- When importing a JS file, we use a script element -->
-    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- Hamburger menu item -->
+    <script src="https://kit.fontawesome.com/d129bbdec1.js" crossorigin="anonymous"></script>
 </head>
 
 <!-- Header -->
 <header>
-    <nav>
-        <ul>
-            <li><a href="http://localhost:52330/Index.html">Home</a></li>
-            <li><a href="http://localhost:52330/Page%202.html">The girls</a></li>
-            <li><a href="https://www.rspca.org.uk/adviceandwelfare/pets/rodents/guineapigs">RSPCA</a></li>
-        </ul>
-    </nav>
+    <div class="navcontainer">
+        <nav>
+            <span class="nav-toggle" id="js-nav-toggle">
+                <i class="fa-solid fa-bars"></i></span>
+            <ul id="js-menu">
+                <li><a href="http://localhost:52330/Index.html">Home</a></li>
+                <li><a href="http://localhost:52330/short_haired.html">Short-haired</a></li>
+                <li><a href="http://localhost:52330/long_haired.html">Long-haired</a></li>
+                <li><a href="http://localhost:52330/images.html">Piggy pics</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
-<!-- Body -->
 
 <body>
     <!-- Hero -->
-    <div class="hero_1">
-        <div class="text">
-            <h1>test<br>header</h1>
-        </div>
+    <div class="herocontainer">
+        <img src="/img/hero/home_1920_v2.jpg" alt="Two guinea pigs eating a carrot" style="width:100%">
+        <h1 class="h1style">Piggie breeds</h1>
     </div>
-    <h1 class=" h1_style">George & Samson</h1>
-    <!-- Main content -->
-    <div class="div-1">
-        Guinea pigs are a lot of work but they are full of character and make great pets!
-    </div>
-    <div class="flex-container">
-        <div class="flex-child magenta">
-            With so many different types of guinea pig breeds available, the options can be overwhelming!
-            Simply choose from the options on the right and you'll be presented with a selection of guinea pig breeds
+    <!-- hide <h2 class="h2style_index">Discover guinea pig breeds</h2> hide -->
+
+    <div class="indexcontainer">
+        <div class="indexitem" style="width: 600px;">
+            <p>If you're thinking of getting guinea pigs, it's worth doing a bit of research on the different breeds
+                because some need more grooming than others.</p>
+            <p>Click on the blue Short-haired or Long-haired buttons to learn more about these friendly little furries.
+            </p>
+            <p>If you'd like to learn more or have any questions, <a
+                    href="mailto:melgreen84@gmail.com&subject=Guinea%20Pig%20Breeds&body=I'd%20like%20to%20learn%20about%20guinea%20pig%20breeds"
+                    target="_top">get in touch</a>.</p>
+
         </div>
-        <div class="flex-child green">
-            Flex Column 2
+        <div><button onclick="window.location.href='http://localhost:52330/short_haired.html';" class="btn"
+                class="btn:hover" style="background-color:#0000ff80; width: 200px; height: 200px;">Short-haired</button>
         </div>
-    </div>
-    <div class="container">
-        <img class="item" src="https://source.unsplash.com/random/320x240" alt="Example image">
-        <img class="item" src="https://source.unsplash.com/random/320x240" alt="Example image">
-        <img class="item" src="https://source.unsplash.com/random/320x240" alt="Example image">
-        <img class="item" src="https://source.unsplash.com/random/320x240" alt="Example image">
-        <img class="item" src="https://source.unsplash.com/random/320x240" alt="Example image">
-        <img class="item" src="https://source.unsplash.com/random/320x240" alt="Example image">
+        <div><button onclick="window.location.href='http://localhost:52330/long_haired.html';" class="btn"
+                class="btn:hover" style="background-color:#0000ff80; width: 200px; height: 200px;">Long-haired</button>
+        </div>
     </div>
 
+    <footer class="footer_style">Made by Mel Green 2023 ©</footer>
+
+    <script>
+        let mainNav = document.getElementById("js-menu");
+        let navBarToggle = document.getElementById("js-nav-toggle");
+
+        navBarToggle.addEventListener("click", function () {
+            mainNav.classList.toggle("active");
+        });</script>
+
 </body>
-<footer class="footer_style">Made by Mel Green 2022 ©</footer>
 
 </html>

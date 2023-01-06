@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d129bbdec1.js" crossorigin="anonymous"></script>
+    <title>Piggy pics</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navmenu">
+            <nav>
+                <span class="nav-toggle" id="js-nav-toggle">
+                    <i class="fa-solid fa-bars"></i></span>
+                <ul id="js-menu">
+                    <li><a class="link" href="http://localhost:52330/Index.html">Home</a></li>
+                    <li><a class="link" href="http://localhost:52330/short_haired.html">Short-haired</a></li>
+                    <li><a class="link" href="http://localhost:52330/long_haired.html">Long-haired</a></li>
+                    <li><a class="link" href="http://localhost:52330/images.html">Piggy pics</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+        <!-- Hero -->
+        <!-- Hero -->
+        <div class="herocontainer">
+            <img src="/img/hero/image-gallery_1920_v2.jpg" alt="Agouti guinea pig facing the camera"
+                style="width:100%;">
+            <h1 class="h1style">Piggie pics!</h1>
+        </div>
+        <div class="container">
+            <img class="item" src="/img/gallery/gpig_whiteTan.jpg" alt="White and tan guinea pig">
+            <img class="item" src="/img/gallery/gpig_brownPinkFlowers.jpg"
+                alt="Brown short-haired guinea pig standing in the sunshine">
+            <img class="item" src="/img/gallery/gpig_LongHairedLightBrown.jpg"
+                alt="Light brown long-haired guinea pig eating cabbage">
+            <img class="item" src="/img/gallery/gpig_longHairedTwoBrown.jpg" alt="Long-haired brown guinea pig">
+            <img class="item" src="/img/gallery/gpig_whiteTanFace.jpg" alt="White and tan guinea pig">
+            <img class="item" src="/img/gallery/gpig_blackChesnut.jpg" alt="Black and chesnut guinea pig">
+            <img class="item" src="/img/gallery/gpig_greyDaisy.jpg" alt="White and tan long-haired guinea pig">
+            <img class="item" src="/img/gallery/gpig_brownWhiteFace.jpg" alt="Brown and white guinea pig">
+            <img class="item" src="/img/gallery/gpig_whiteTanUp.jpg" alt="White and tan guinea pig looking up">
+
+        </div>
+        <footer class="footer_style">Made by Mel Green 2023 ©</footer>
+
+        <script>
+            let mainNav = document.getElementById("js-menu");
+            let navBarToggle = document.getElementById("js-nav-toggle");
+
+            navBarToggle.addEventListener("click", function () {
+                mainNav.classList.toggle("active");
+            });</script>
+    </body>
+
+</html>

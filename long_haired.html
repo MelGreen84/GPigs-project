@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Long-haired piggies</title>
+  <link rel="stylesheet" href="/CSS/main.css">
+  <script src="js/gpigs.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d129bbdec1.js" crossorigin="anonymous"></script>
+</head>
+
+<header>
+  <div class="navmenu">
+    <nav>
+      <span class="nav-toggle" id="js-nav-toggle">
+        <i class="fa-solid fa-bars"></i></span>
+      <ul id="js-menu">
+        <li><a class="link" href="http://localhost:52330/Index.html">Home</a></li>
+        <li><a class="link" href="http://localhost:52330/short_haired.html">Short-haired</a></li>
+        <li><a class="link" href="http://localhost:52330/long_haired.html">Long-haired</a></li>
+        <li><a class="link" href="http://localhost:52330/images.html">Piggy pics</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+  <!-- Hero -->
+  <div class="herocontainer">
+    <img src="/img/hero/longhaired_1920_v2.jpg" alt="Two long-haired guinea pigs playing on grass" style="width:100%">
+    <h1 class="h1style">Long-haired</h1>
+  </div>
+  <p class="paragraph"> Click on the buttons below to learn more about long-haired guinea pig breeds.</p>
+
+  <div class="buttonContainer_1">
+    <button class="button" class="button:hover" style="background-color:#0000ff80"
+      onclick="breedlh('Peruvian')">Peruvian</button>
+    <button class="button" class="button-hover" style="background-color:#00ff0080"
+      onclick="breedlh('Abyssinian')">Abyssinian</button>
+    <button class="button" class="button-hover" style="background-color:#ffff0080"
+      onclick="breedlh('Sheltie')">Sheltie</button>
+    <button class="button" class="button-hover" style="background-color:#ff00ff80"
+      onclick="breedlh('Coronet')">Coronet</button>
+  </div>
+
+
+  <div id="breed" class="breedStyle"></div>
+
+  <footer class="footer_style">Made by Mel Green 2023 ©</footer>
+
+  <script>
+    let mainNav = document.getElementById("js-menu");
+    let navBarToggle = document.getElementById("js-nav-toggle");
+
+    navBarToggle.addEventListener("click", function () {
+      mainNav.classList.toggle("active");
+    });</script>
+
+</body>
+
+</html>
