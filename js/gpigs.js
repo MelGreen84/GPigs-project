@@ -28,9 +28,9 @@ function breedsh(breedName) {
 }
 
 // Long-haired breed array
-gpigslh = [["Peruvian", "They have the longest fur out of all guinea pig breeds and therefore require regular grooming by experienced guinea pig owners.", "<img src='/img/lh/peruvian.png' class = 'thumbnail'/>"],
+gpigslh = [["Peruvian", "They have the longest fur out of all guinea pig breeds and therefore require regular grooming by experienced guinea pig owners.", "<img src='img/lh/peruvian.png' class = 'thumbnail'/>"],
 ["Abyssinian", "These little piggies are friendly, cheeky and love to play. Their hair stands on end because it grows in rosettes.", "<img src='img/lh/abyssinian_guinea_pig.jpg' class = 'thumbnail'/>"],
-["Sheltie", "Also known as Silkies, they have long, soft, silky fur that requires regular grooming. Suitable for experienced guinea pig owners.", "<img src='/img/lh/sheltie_guinea_pig.jpg' class = 'thumbnail'/>"],
+["Sheltie", "Also known as Silkies, they have long, soft, silky fur that requires regular grooming. Suitable for experienced guinea pig owners.", "<img src='img/lh/sheltie_guinea_pig.jpg' class = 'thumbnail'/>"],
 ["Coronet", "Similar to Shelties, with long, silky, soft hair, they are not suitable for beginners because they require regular grooming.", "<img src='img/lh/coronet_guinea_pig.jpg' class = 'thumbnail'/>"]];
 
 // Function
