@@ -223,7 +223,6 @@ a:hover {
 
 /* Breed output images */
 .thumbnail {
-  max-width: 100%;
   margin: 15px 15px 15px 30px;
   border-radius: 10%;
   box-shadow: 3px 3px 10px 0 #000000;
