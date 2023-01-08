@@ -213,6 +213,7 @@ a:hover {
 .breedStyle {
   display: flex;
   flex-direction: row;
+  height: auto;
   padding: 10px;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -222,7 +223,6 @@ a:hover {
 
 /* Breed output images */
 .thumbnail {
-
   margin: 10px;
   border-radius: 10%;
 }
