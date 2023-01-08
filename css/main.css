@@ -223,12 +223,11 @@ a:hover {
 
 /* Breed output images */
 .thumbnail {
-  margin: 15px 15px 15px 30px;
-  border-radius: 10%;
-  box-shadow: 3px 3px 10px 0 #000000;
-  width: 100%;
-  height: 100%;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 
