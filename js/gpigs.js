@@ -9,7 +9,6 @@ function breedsh(breedName) {
     switch (breedName) {
         case ("American"):
             document.getElementById("breed").innerHTML = "Breed: " + gpigssh[0][0] + "<br>" + "Description: " + gpigssh[0][1] + "<br>" + gpigssh[0][2];
-            document.getElementById("breed").style.backgroundColor = "#0000ff80";
             break;
         case ("Dalmation"):
             document.getElementById("breed").innerHTML = "Breed: " + gpigssh[1][0] + "<br>" + "Description: " + gpigssh[1][1] + "<br>" + gpigssh[1][2];
