@@ -222,7 +222,7 @@ a:hover {
 }
 
 /* Breed output images */
-.thumbnail {
+.breedStyle img {
   margin: 10px;
   border-radius: 10%;
 }

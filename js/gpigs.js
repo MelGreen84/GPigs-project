@@ -1,8 +1,8 @@
 // Short-haired breed array
-gpigssh = [["American", "The most popular breed of guinea pig. They are suitable for new piggie owners because their short hair makes them easy to maintain.", "<img src='img/sh/american_guinea_pig.jpg' class = 'thumbnail'/>"],
-["Dalmation", "A sweet, short-haired guinea pig whose hair is primarily white with black spots. They are suitable for beginners because they don't need alot of grooming.", "<img src='img/sh/dalmation_gp.jpg' class = 'thumbnail'/>"],
-["Teddy", "Course, short hair that doesn't need much grooming. Teddy guinea pigs are known for being one of the most relaxed and friendly breeds.", "<img src='img/sh/teddy.jpg' class = 'thumbnail'/>"],
-["Agouti", "The Agouti is a smooth-coated guinea pig with a very cute face. They are suitable for beginners because they don't need alot of grooming.", "<img src='img/sh/agouti.jpg' class = 'thumbnail'/>"]];
+gpigssh = [["American", "The most popular breed of guinea pig. They are suitable for new piggie owners because their short hair makes them easy to maintain.", "<img src='img/sh/american_guinea_pig.jpg' class = 'breedStyle img '/>"],
+["Dalmation", "A sweet, short-haired guinea pig whose hair is primarily white with black spots. They are suitable for beginners because they don't need alot of grooming.", "<img src='img/sh/dalmation_gp.jpg' class = 'breedStyle img '/>"],
+["Teddy", "Course, short hair that doesn't need much grooming. Teddy guinea pigs are known for being one of the most relaxed and friendly breeds.", "<img src='img/sh/teddy.jpg' class = 'breedStyle img '/>"],
+["Agouti", "The Agouti is a smooth-coated guinea pig with a very cute face. They are suitable for beginners because they don't need alot of grooming.", "<img src='img/sh/agouti.jpg' class = 'breedStyle img '/>"]];
 
 // Function
 function breedsh(breedName) {
