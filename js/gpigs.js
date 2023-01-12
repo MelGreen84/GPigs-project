@@ -1,8 +1,8 @@
 // Short-haired breed array
-gpigssh = [["American", "The most popular breed of guinea pig. They are suitable for new piggie owners because their short hair makes them easy to maintain.", "<img src='img/sh/american_guinea_pig.jpg' class = 'breedImg'/>"],
-["Dalmation", "A sweet, short-haired guinea pig whose hair is primarily white with black spots. They are suitable for beginners because they don't need alot of grooming.", "<img src='img/sh/dalmation_gp.jpg'class = 'breedImg'/>"],
-["Teddy", "Course, short hair that doesn't need much grooming. Teddy guinea pigs are known for being one of the most relaxed and friendly breeds.", "<img src='img/sh/teddy.jpg'class = 'breedImg'/>"],
-["Agouti", "The Agouti is a smooth-coated guinea pig with a very cute face. They are suitable for beginners because they don't need alot of grooming.", "<img src='img/sh/agouti.jpg'class = 'breedImg'/>"]];
+gpigssh = [["American", "The most popular breed of guinea pig. They are suitable for new piggie owners because their short hair makes them easy to maintain.", "<img src='img/sh/american_guinea_pig.jpg' alt='short-haired guinea pig'  class = 'breedImg'/>"],
+["Dalmation", "A sweet, short-haired guinea pig whose hair is primarily white with black spots. They are suitable for beginners because they don't need alot of grooming.", "<img src='img/sh/dalmation_gp.jpg' alt='black and white short-haired guinea pig' class = 'breedImg'/>"],
+["Teddy", "Course, short hair that doesn't need much grooming. Teddy guinea pigs are known for being one of the most relaxed and friendly breeds.", "<img src='img/sh/teddy.jpg' alt='black short-haired guinea pig' class = 'breedImg'/>"],
+["Agouti", "The Agouti is a smooth-coated guinea pig with a very cute face. They are suitable for beginners because they don't need alot of grooming.", "<img src='img/sh/agouti.jpg' alt='brown short-haired guinea pig'class = 'breedImg'/>"]];
 
 // Function
 function breedsh(breedName) {
@@ -28,10 +28,10 @@ function breedsh(breedName) {
 }
 
 // Long-haired breed array
-gpigslh = [["Peruvian", "They have the longest fur out of all guinea pig breeds and therefore require regular grooming by experienced guinea pig owners.", "<img src='img/lh/peruvian.png' class = 'breedImg'/>"],
-["Abyssinian", "These little piggies are friendly, cheeky and love to play. Their hair stands on end because it grows in rosettes. Suitable for fairly experienced guinea pig owners because they require some grooming.", "<img src='img/lh/abyssinian_guinea_pig.jpg' class = 'breedImg'/>"],
-["Sheltie", "Also known as Silkies, they have long, soft, silky fur that requires regular grooming. Suitable for experienced guinea pig owners.", "<img src='img/lh/sheltie_guinea_pig.jpg' class = 'breedImg'/>"],
-["Coronet", "Similar to Shelties, with long, silky, soft hair, they are not suitable for beginners because they require regular grooming.", "<img src='img/lh/coronet_guinea_pig.jpg' class = 'breedImg'/>"]];
+gpigslh = [["Peruvian", "They have the longest fur out of all guinea pig breeds and therefore require regular grooming by experienced guinea pig owners.", "<img src='img/lh/peruvian.png' alt='black and white long-haired guinea pig' alt='black and white long-haired guinea pig'class = 'breedImg'/>"],
+["Abyssinian", "These little piggies are friendly, cheeky and love to play. Their hair stands on end because it grows in rosettes. Suitable for fairly experienced guinea pig owners because they require some grooming.", "<img src='img/lh/abyssinian_guinea_pig.jpg' alt='tortoiseshell long-haired guinea pig'class = 'breedImg'/>"],
+["Sheltie", "Also known as Silkies, they have long, soft, silky fur that requires regular grooming. Suitable for experienced guinea pig owners.", "<img src='img/lh/sheltie_guinea_pig.jpg' alt='white and tan long-haired guinea pig'class = 'breedImg'/>"],
+["Coronet", "Similar to Shelties, with long, silky, soft hair, they are not suitable for beginners because they require regular grooming.", "<img src='img/lh/coronet_guinea_pig.jpg' alt='black and white long-haired guinea pig'class = 'breedImg'/>"]];
 
 // Function
 function breedlh(breedName) {
